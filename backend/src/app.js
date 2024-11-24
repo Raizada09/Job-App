@@ -11,7 +11,7 @@ path:"./.env"
 const app = express();
 
 const corsoptions = {
-  origin: 'https://jobapp-6va3.onrender.com',
+  origin: 'http://localhost:5173',
   credentials: true,
 };
 app.use(cookieParser());
